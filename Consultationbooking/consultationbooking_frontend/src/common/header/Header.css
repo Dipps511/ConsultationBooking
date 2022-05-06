@@ -1,0 +1,49 @@
+.logo {
+    padding-left: 22px;
+    color: white;
+    font-size: 35px;
+}
+
+.brandName{
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+
+}
+
+.header {
+    background-color: purple;
+    height: 70px;
+    /*width: auto;*/
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > div > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-buttons button {
+    margin-left: 100px;
+}
+
+#headerLoginRegister {
+    display: flex;
+    justify-content: center;
+}
+
+#headerLoginRegister:hover {
+    cursor: pointer;
+}
+
+#headerLoginRegister div {
+    padding: 10px 30px;
+}
+
+#headerLoginRegister .active {
+    border-bottom: 2px solid #f00;
+}
